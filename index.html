@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="app ">
+
+        <header><h2>Weather</h2></header>
+
+        <div class="notification">
+            <!-- <p>error</p> -->
+        </div>
+
+        <div class="weather-container">
+
+            <div class="weather-icon">
+
+                <img src="/img/cloud.png" alt="">
+
+            </div>
+
+            <div class="temp-value"><p onclick="change()" onmouseover="pointer()">-</p></div>
+
+            <div class="temp-description"> <p> - </p></div>
+
+            <div class="location"><p> - </p></div>
+            
+            <input type="text" id="city" placeholder="Location"> <br> 
+            <button id="search" onclick="getWeather()">Search</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
