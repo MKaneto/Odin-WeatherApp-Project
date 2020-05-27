@@ -3,7 +3,7 @@
 .container {
     width: 100%;
     height: auto;
-    background: url("/img/weather.jpg") no-repeat 0 0px;
+    background: url("./img/weather.jpg") no-repeat 0 0px;
     background-size: cover;
     padding: 34px 425px;
 }
