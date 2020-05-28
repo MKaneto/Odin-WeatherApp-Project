@@ -52,7 +52,7 @@ function getWeather() {
 function displayWeather() {
     
     const city = document.getElementById("city").value;
-    iconElement.innerHTML = `<img src="${weather.icon}">`;
+    iconElement.innerHTML = `<img src="http:${weather.icon}">`;
     tempElement.innerHTML = `${weather.temperature.celcius}°C`;
     descElement.innerHTML = `${weather.description}`;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
